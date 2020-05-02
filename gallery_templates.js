@@ -1,0 +1,10 @@
+
+
+const duoColumn = `
+
+`;
+
+const unoColumn = `
+
+`;
+

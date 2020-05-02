@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Art by Barbie Gallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="gallery.js"></script>
+    <script src="gallery_templates.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+        }
+        .gallery-container {
+            margin-top: 50px;
+            width: 80%;
+        }
+        .gallery-placeholder {
+            height: 300px;
+            width: 90%;
+            margin: 20px auto;
+            background-color: #152F4F;
+            background-size: cover;
+        }
+        .gallery-placeholder:hover .gallery-info{
+            visibility: visible;
+        }
+        .gallery-info {
+            height: 300px;
+            opacity: .8;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            visibility: hidden;
+        }
+        .gallery-title {
+            font-size: 20px;
+            width: 40%;
+            margin: auto;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .gallery-dims {
+            font-size: 18px;
+            width: 90%;
+            margin: auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .gallery-modal {
+            height: 100vh;
+            width: 100%;
+            background-color: green;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .visible {
+            display: block;
+        }
+        .invisible {
+            display: none;
+        }
+    </style>
+</head>
+<body onload="populate_gallery()">
+
+    <div class="modalContainer" id="modalContainer"></div>
+
+    <div class="container-fluid gallery-container visible" id="gallery-container"></div>
+
+</body>
+</html>
