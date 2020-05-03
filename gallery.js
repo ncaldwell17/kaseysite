@@ -6,9 +6,11 @@ function populate_gallery() {
             // let divisor = Math.round(data.length/3);
             // let remainder = data.length % 3;
 
+
+
             const filepath = d.filepath;
             const title = d.title;
-            const dimensions = d.dims;
+            const dimensions = d.zero;
             const modal_id = d.modal_id;
 
             const triColumn = `
@@ -40,20 +42,17 @@ function populate_gallery() {
 
         itemList.forEach(function(d) {
             listOfThrees.push(d);
-            console.log(listOfThrees.length);
             if (listOfThrees.length === 3) {
                 final.push(make_row(listOfThrees));
                 listOfThrees = [];
             }
-            else if (itemList.length === iterator) {
+            else if (itemList.length-1 === iterator) {
                 final.push(make_row(listOfThrees));
             }
             iterator = iterator + 1;
 
 
         });
-
-        console.log(final.join(' '));
 
         document.getElementById("modalContainer").innerHTML = modalList.join(' ');
         document.getElementById("gallery-container").innerHTML = final.join(' ');
