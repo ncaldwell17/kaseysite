@@ -8,7 +8,7 @@ function populate_gallery() {
 
             const filepath = d.filepath;
             const title = d.title;
-            const dimensions = d.dimensions;
+            const dimensions = d.dims;
             const modal_id = d.modal_id;
 
             const triColumn = `

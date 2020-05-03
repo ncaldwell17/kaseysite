@@ -1,4 +1,6 @@
-﻿filepath,title,dimensions ,modal_id
-images/gallery_1.jpeg,Example Title,7 X 6 ft,primary
-images/gallery_2.jpg,Example Title,10 X 5ft,secondary
-images/gallery_3.jpg,Example Title,9 X 15 ft ,tertiary
+﻿filepath,title,dims ,modal_id
+images/gallery_1.jpeg,Who Dat!,48 X 72,primary
+images/gallery_2.jpg,Say Yes!,30 X 40,secondary
+images/gallery_3.jpg,Just Trying to Fit In,24 X 36,tertiary
+images/gallery_4.jpg,Girl With an Earl Peering,30 X 40,quartinary
+images/gallery_5.jpg,Girl in a Polka Dot Dress,36 X 48,quintinary
