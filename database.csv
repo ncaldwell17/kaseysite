@@ -1,6 +1,6 @@
-﻿filepath,title,dims ,modal_id,zero
-images/gallery_1.jpeg,Who Dat!,48 X 72,primary,48 X 72
-images/gallery_2.jpg,Say Yes!,30 X 40,secondary,30 X 40
-images/gallery_3.jpg,Just Trying to Fit In,24 X 36,tertiary,24 X 40
-images/gallery_4.jpg,Girl With an Earl Peering,30 X 40,quartinary,30 X 40
-images/gallery_5.jpg,Girl in a Polka Dot Dress,36 X 48,quintinary,36 X 48
+﻿filepath,title,modal_id,zero
+images/gallery_1.jpeg,Who Dat!,primary,48 X 72
+images/gallery_2.jpg,Say Yes!,secondary,30 X 40
+images/gallery_3.jpg,Just Trying to Fit In,tertiary,24 X 40
+images/gallery_4.jpg,Girl With an Earl Peering,quartinary,30 X 40
+images/gallery_5.jpg,Girl in a Polka Dot Dress,quintinary,36 X 48

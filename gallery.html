@@ -70,6 +70,20 @@
         .invisible {
             display: none;
         }
+        .icon-image {
+            color: slategray;
+            float: left;
+            font-size: 5vh;
+            margin: auto;
+        }
+        .icon-image:hover {
+            cursor: pointer;
+            color: #152F4F;
+            transition: .5s;
+        }
+        .icon-filler {
+            height: 10px;
+        }
     </style>
 </head>
 <body onload="populate_gallery()">
@@ -94,16 +108,54 @@
                 <a class="nav-link" href="about.html">About</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+
     </div>
 </nav>
 
     <div class="modalContainer" id="modalContainer"></div>
 
     <div class="container-fluid gallery-container visible" id="gallery-container"></div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small">
+
+        <!-- Footer Elements -->
+        <div class="container" style="margin-top: 50px;">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <div class="col-sm-2 icon-filler"></div>
+                <div class="col-sm-8" style="height: 100px;">
+
+                    <div class="row">
+                        <i class="fa fa-facebook icon-image"></i>
+                        <i class="fa fa-instagram icon-image"></i>
+                        <i class="fa fa-linkedin icon-image"></i>
+                        <i class="fa fa-snapchat icon-image"></i>
+                        <i class="fa fa-twitter icon-image"></i>
+                    </div>
+
+                </div>
+                <div class="col-sm-2 icon-filler"></div>
+
+
+
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://artbybarbie.com/"> Art by Barbie</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
 
 </body>
 </html>
