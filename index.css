@@ -30,8 +30,3 @@ i{font-size: 18px;}
 }
 
 
-
-.carousel-item:hover {
-    opacity: 0.4;
-    transition: 1s;
-}
